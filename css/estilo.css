@@ -1,0 +1,381 @@
+@charset "UTF-8";
+
+/*
+    Nome: CSS Home Projeto Integrador
+    Data: Abril 2019
+    Descrição: Projeto de site primeiro semestre
+    Versão: 0.5
+    Autor: Anderson Antunes
+*/
+
+/* Cor de fundo da página */
+html {
+    background-color: #ededed;
+}
+
+/* Tamanho e tipo da fonte geral, tamanho máximo do body e margem */
+body {
+    font-family: Arial, sans-serif;
+    font-size-adjust: 100%;
+    max-width: 1339px;
+    margin: 0px auto 0px auto;
+}
+
+/* margem das caixas */
+nav,
+article,
+section,
+aside,
+footer {
+    margin: 10px;
+    text-align: center;
+}
+
+/* Posicionando pra flutuar junto com a página */
+/*.logo,*/
+/*nav,*/
+header {
+    /*position: sticky;*/
+    /*top: 10px;*/
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+/* Setando estilos de texto para os parágrafos e o padding */
+p {
+    text-align: center;
+    font-size: 1em;
+    text-align: justify;
+    padding: 10px;
+    color: #333333;
+}
+
+/* Posionamento e margem do logo */
+.logo {
+    position: absolute;
+    top: 25px;
+    margin-left: 10px;
+}
+
+/* Alinhando o texto do menu ao centro da caixa */
+nav {
+    /*position: fixed;*/
+    margin-top: 30px;
+    top: 94px;
+    right: 147px;
+}
+
+/* Alinhamento dos itens do menu */
+nav ul li {
+    display: inline;
+}
+
+/* Definindo espaçamento entre links, tamanho da fonte */
+nav ul li a {
+    padding: 0px 20px 0px 20px;
+    color: #0b70ad;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+/* Ainda não utilizado */
+ul li a:hover {
+    color: ;
+    background-color: ;
+}
+
+/* Formataçao do h1 */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    margin: 0px 69px 0px auto;
+    /*padding: 20px 69px 0px 69px;*/
+}
+
+/* Posicionamento e formatação dos itens do mapa */
+footer nav {
+    float: left;
+    font-size: .8em;
+}
+
+/* Retirando sublinhado dos itens do mapa */
+footer nav a {
+    text-decoration: none;
+}
+
+/* Formatação do titulo do mapa */
+footer nav p {
+    margin: 0px;
+    padding: 0px;
+    font-size: .9em;
+    font-family: serif;
+    font-weight: bold;
+    margin-right: 98px;
+}
+
+/* Início do posicionamento individual de cada item do mapa */
+.fhome {
+    position: relative;
+    top: 5px;
+    left: 80px;
+}
+
+.ftema {
+    position: relative;
+    top: 5px;
+    left: 145px;
+}
+
+.fparticipantes {
+    position: relative;
+    top: 5px;
+    left: 210px;
+}
+
+.fsobre {
+    position: relative;
+    top: 35px;
+    left: 130px;
+}
+
+.fcontato {
+    position: relative;
+    top: 5px;
+    left: 240px;
+}
+
+/* Final do posicionamento individual de cada item do mapa */
+
+/* Posicionamento das imagens do footer */
+footer img {
+    padding-top: 25px;
+    float: right;
+    margin: 10px 40px 0px 10px;
+}
+
+.qr {
+    margin-top: -12px;
+    margin-left: 20px;
+}
+
+/* Formatação e alinhamento do texto do small / "retirado" o float*/
+footer p {
+    /*border: 1px solid yellow;*/
+    margin-right: -69px;
+    padding-top: 20px;
+    clear: both;
+    text-align: center;
+    font-size: .8em;
+}
+
+/*
+    Final do posicionamento Header e Footer (Todas as páginas)
+*/
+
+
+/*
+    Inícion do CSS da página HOME
+*/
+.homeArticle {
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px 2px #AAAAAA;
+    border-radius: 20px;
+    margin: 50px 250px 40px 250px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* Ajustando posicionamento das sections da Home */
+/* Centralizando imagem tmeporaria */
+.homeSection {
+    margin: 10px 10px 10px 125px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 30px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px #AAAAAA;
+    width: 455px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    position: static;
+}
+
+/* Centralizando os textos das sections na Home*/
+.homeSection p {
+    font-size: 1em;
+    text-align: center;
+}
+
+.homeSection a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/* Final do CSS da página HOME */
+
+
+/*
+    Início do CSS da página TEMA
+*/
+
+.temaArticle h1 {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    margin: 50px 500px 40px 500px;
+    padding: 20px 0px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px 2px #AAAAAA;
+}
+
+.temaArticle figure {
+    width: 455px;
+    margin: 20px 0px 10px 120px;
+    padding: 25px 10px 20px 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #AAAAAA;
+    background-color: white;
+    float: left;
+    text-align: center;
+}
+
+/* Final do CSS da página TEMA*/
+
+
+
+/*
+    Início do CSS da página PARTICIPANTES
+*/
+
+.participantesArticle section {
+    margin: 10px 200px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #AAAAAA;
+    border: ;
+    float: left;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.participantesArticle figure {
+    width: 120px;
+    height: 125px;
+    float: left;
+    padding: ;
+    background-color: ;
+}
+
+.participantesArticle img {
+    padding: ;
+    background-color: green;
+    border-radius: 100px;
+}
+
+.participantesArticle figcaption {
+    color: #565656;
+}
+
+.participantesArticle p {
+    background-color: #FFFFFF;
+    margin: 50px 150px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #AAAAAA;
+}
+
+.participantesArticle section p {
+    margin: 0px 100px 0px 170px;
+    position: relative;
+    box-shadow: 0px 0px 0px 0px #FFFFFF;
+}
+
+.desc1 {
+    top: 33px;
+}
+
+.desc2 {
+    top: 33px;
+}
+
+.desc3 {
+    top: 33px;
+}
+
+.desc4 {
+    top: 23px;
+}
+
+.desc5 {
+    top: 23px;
+}
+
+/* Final do CSS da página PARTICIÀNTES */
+
+
+/*
+    Início do CSS da página SOBRE
+*/
+.sobreArticle {
+    background-color: #FFFFFF;
+    max-width: 1200px;
+    margin: 50px 69.5px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #AAAAAA;
+}
+
+.sobreAside {
+    background-color: #FFFFFF;
+    max-width: 1200px;
+    margin: 50px 69.5px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #AAAAAA;
+}
+
+table {
+    width: 197px;
+    margin: auto 569.5px auto 569.5px;
+    font-size: 1em;
+    text-align: left;
+    align-content: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+}
+
+/* Final do CSS da página SOBRE */
+
+
+/*
+    Início do CSS da página CONTATO
+*/
+
+/* Final do CSS da página CONTATO */
+
+
+/*
+    Início do CSS da página PLAYLISTS
+*/
+
+.playlistArticle {
+    margin: 50px auto 50px 450px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: 30px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px #AAAAAA;
+    width: 455px;
+    height: 500px;
+    text-align: center;
+}
+
+/* Final do CSS da página PLAYLISTS */
