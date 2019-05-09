@@ -387,6 +387,7 @@ form textarea {
     width: 600px;
     height: 300px;
     border-radius: 5px;
+    font-family: Arial, sans-serif;
 }
 
 input[type=button] {
