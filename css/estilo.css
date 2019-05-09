@@ -37,10 +37,13 @@ footer {
 /*.logo,*/
 /*nav,*/
 header {
+    width: 1200px;
+    height: 150px;
     /*position: sticky;*/
     /*top: 10px;*/
     margin: 0px auto 0px auto;
     text-align: center;
+    background-color: #CCCCCC;
 }
 
 /* Setando estilos de texto para os parágrafos e o padding */
@@ -54,9 +57,10 @@ p {
 
 /* Posionamento e margem do logo */
 .logo {
+    height: 120px;
     position: absolute;
-    top: 25px;
-    margin-left: 10px;
+    top: 15px;
+    margin-left: 395px;
 }
 
 /* Alinhando o texto do menu ao centro da caixa */
@@ -122,7 +126,7 @@ footer nav p {
     margin-right: 98px;
 }
 
-/* Início do posicionamento individual de cada item do mapa */
+/***************************************************    Início do posicionamento individual de cada item do mapa   ***************************************************/
 .fhome {
     position: relative;
     top: 5px;
@@ -153,9 +157,10 @@ footer nav p {
     left: 240px;
 }
 
-/* Final do posicionamento individual de cada item do mapa */
+/***************************************************    Final do posicionamento individual de cada item do mapa   ***************************************************/
 
-/* Posicionamento das imagens do footer */
+
+/***************************************************    Posicionamento das imagens do footer   ***************************************************/
 footer img {
     padding-top: 25px;
     float: right;
@@ -177,14 +182,10 @@ footer p {
     font-size: .8em;
 }
 
-/*
-    Final do posicionamento Header e Footer (Todas as páginas)
-*/
+/***************************************************    Final do posicionamento Header e Footer (Todas as páginas)   ***************************************************/
 
 
-/*
-    Inícion do CSS da página HOME
-*/
+/***************************************************    Inícion do CSS da página HOME   ***************************************************/
 .homeArticle {
     background-color: #FFFFFF;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
@@ -193,8 +194,8 @@ footer p {
     padding: 10px 10px 10px 10px;
 }
 
-/* Ajustando posicionamento das sections da Home */
-/* Centralizando imagem tmeporaria */
+/*  Ajustando posicionamento das sections da Home   */
+/*  Centralizando imagem tmeporaria */
 .homeSection {
     margin: 10px 10px 10px 125px;
     border-radius: 20px;
@@ -208,7 +209,7 @@ footer p {
     position: static;
 }
 
-/* Centralizando os textos das sections na Home*/
+/*    Centralizando os textos das sections na Home   */
 .homeSection p {
     font-size: 1em;
     text-align: center;
@@ -219,12 +220,10 @@ footer p {
     color: #333333;
 }
 
-/* Final do CSS da página HOME */
+/***************************************************    Final do CSS da página HOME   ***************************************************/
 
 
-/*
-    Início do CSS da página TEMA
-*/
+/***************************************************    Início do CSS da página TEMA   ***************************************************/
 
 .temaArticle h1 {
     border: 1px solid #FFFFFF;
@@ -246,13 +245,10 @@ footer p {
     text-align: center;
 }
 
-/* Final do CSS da página TEMA*/
+/***************************************************    Final do CSS da página TEMA   ***************************************************/
 
 
-
-/*
-    Início do CSS da página PARTICIPANTES
-*/
+/***************************************************    Início do CSS da página PARTICIPANTES   ***************************************************/
 
 .participantesArticle section {
     margin: 10px 200px;
@@ -317,12 +313,11 @@ footer p {
     top: 23px;
 }
 
-/* Final do CSS da página PARTICIÀNTES */
+/***************************************************    Final do CSS da página PARTICIÀNTES   ***************************************************/
 
 
-/*
-    Início do CSS da página SOBRE
-*/
+/***************************************************    Início do CSS da página SOBRE   ***************************************************/
+
 .sobreArticle {
     background-color: #FFFFFF;
     max-width: 1200px;
@@ -355,19 +350,59 @@ th {
     border: 1px solid;
 }
 
-/* Final do CSS da página SOBRE */
+/***************************************************    Final do CSS da página SOBRE   ***************************************************/
 
 
-/*
-    Início do CSS da página CONTATO
-*/
+/***************************************************    Início do CSS da página CONTATO   ***************************************************/
 
-/* Final do CSS da página CONTATO */
+form fieldset {
+    margin: auto 341px;
+    border: none;
+    align-content: center;
+    text-align: center;
+}
+
+fieldset legend {
+    text-align: right;
+    margin: 30px auto;
+    font-size: 1.5em;
+    font-weight: bold;  
+    text-transform: uppercase;
+}
+
+form p {
+    text-align: left;
+    border: 1px solid black;
+    border: none;
+    margin: 10px auto -5px auto;
+    font-size: .9em;
+}
+
+form input {
+    margin:  auto;
+    width: 600px;
+    height: 25px;
+    display: block;
+    border-radius: 5px;
+}   
+
+form textarea {
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+input[type=button] {
+    margin-top: 10px;
+    width: 100px;
+    text-align: center;
+    display: block;
+}
+
+/***************************************************    Final do CSS da página CONTATO   ***************************************************/
 
 
-/*
-    Início do CSS da página PLAYLISTS
-*/
+/***************************************************    Início do CSS da página PLAYLISTS   ***************************************************/
 
 .playlistArticle {
     margin: 50px auto 50px 450px;
@@ -380,4 +415,4 @@ th {
     text-align: center;
 }
 
-/* Final do CSS da página PLAYLISTS */
+/***************************************************    Final do CSS da página PLAYLISTS   ***************************************************/
