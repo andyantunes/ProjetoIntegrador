@@ -30,6 +30,7 @@ section,
 aside,
 footer {
     margin: 10px;
+    /*10px*/
     text-align: center;
 }
 
@@ -48,12 +49,13 @@ header {
 header nav {
     float: right;
     width: 76%;
-    margin: 15px 10px;
+    margin: 1.01% .7%;
+    /*15px 10px*/
 }
 
 header ul {
     width: 96%;
-    text-align: left;
+    text-align: start;
 }
 
 /* Alinhamento dos itens do menu */
@@ -63,7 +65,8 @@ nav ul li {
 
 /* Definindo espaçamento entre links, tamanho da fonte */
 nav ul li a {
-    padding: 5px 20px;
+    padding: .5% 2.1%;
+    /*5px 20px*/
     color: #0b70ad;
     text-transform: none;
     text-decoration: none;
@@ -81,7 +84,7 @@ ul li a:hover {
 /* Posionamento e margem do logo */
 .logo {
     height: 60px;
-    margin: 1.119402985074627% 0 1.119402985074627% 1.119402985074627%;
+    margin: 1.119402985074627% 0% 1.119402985074627% 1.119402985074627%;
     /*15px 0px 15px 15px*/
 }
 
@@ -90,16 +93,16 @@ p {
     text-align: center;
     font-size: 1em;
     text-align: justify;
-    padding: 10px;
+    padding: 1%;
+    /*10px*/
     color: #333333;
 }
 
 /* Alinhando o texto do menu ao centro da caixa */
 nav {
     /*position: fixed;*/
-    margin-top: 30px;
-    top: 94px;
-    right: 147px;
+    margin-top: 2.5%;
+    /*30px*/
 }
 
 /* Formataçao do h1 */
@@ -111,82 +114,65 @@ h1 {
 
 footer {
     clear: both;
-    margin: 0px 69px 0px auto;
+    background-color: #EDEDED;
+    width: 100%;
+    margin: 0%;
     /*padding: 20px 69px 0px 69px;*/
 }
 
 /* Posicionamento e formatação dos itens do mapa */
 footer nav {
     float: left;
-    font-size: .8em;
+    font-size: 78%;
+    /*.8e*/
+    width: 55%;
 }
 
 /* Retirando sublinhado dos itens do mapa */
 footer nav a {
     text-decoration: none;
+    float: left;
+    margin-left: 10%;
+    /*80px*/
 }
 
 /* Formatação do titulo do mapa */
 footer nav p {
-    margin: 0px;
-    padding: 0px;
+    padding: 0%;
     font-size: .9em;
     font-family: serif;
     font-weight: bold;
-    margin-right: 98px;
+    margin-right: 74.3%;
+    /*400px*/
 }
 
 /***************************************************    Início do posicionamento individual de cada item do mapa   ***************************************************/
-.fhome {
-    position: relative;
-    top: 5px;
-    left: 80px;
-}
 
-.ftema {
-    position: relative;
-    top: 5px;
-    left: 145px;
-}
-
-.fparticipantes {
-    position: relative;
-    top: 5px;
-    left: 210px;
-}
-
-.fsobre {
-    position: relative;
-    top: 35px;
-    left: 130px;
-}
-
-.fcontato {
-    position: relative;
-    top: 5px;
-    left: 240px;
-}
 
 /***************************************************    Final do posicionamento individual de cada item do mapa   ***************************************************/
 
 
 /***************************************************    Posicionamento das imagens do footer   ***************************************************/
 footer img {
-    padding-top: 25px;
+    padding-top: 2.5%;
+    /*25px*/
+    /**/
     float: right;
-    margin: 10px 40px 0px 10px;
+    margin: 1.5% 6% 0% 0%;
+    /*20px 80px 0px 0px*/
 }
 
 .qr {
-    margin-top: -12px;
-    margin-left: 20px;
+    margin-top: 0%;
+    margin-left: 1.5%;
+    /*20px*/
 }
 
 /* Formatação e alinhamento do texto do small / "retirado" o float*/
 footer p {
     /*border: 1px solid yellow;*/
-    margin-right: -69px;
-    padding-top: 20px;
+    margin: 0%;
+    /*padding-top: 1.4%;/*20px*/
     clear: both;
     text-align: center;
     font-size: .8em;
