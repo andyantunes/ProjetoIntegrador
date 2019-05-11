@@ -3,23 +3,23 @@
 /*
     Nome: CSS Home Projeto Integrador
     Data: Abril 2019
-    DescriÃ§Ã£o: Projeto de site primeiro semestre
-    VersÃ£o: 0.5
+    Descrição: Projeto de site primeiro semestre
+    Versão: 0.5
     Autor: Anderson Antunes
 */
 
-/* Cor de fundo da pÃ¡gina */
+/* Cor de fundo da página */
 html {
     background-color: #E3E3E3;
     background-color: #EDEDED;
     background-color: #FaFaFa;
 }
 
-/* Tamanho e tipo da fonte geral, tamanho mÃ¡ximo do body e margem */
+/* Tamanho e tipo da fonte geral, tamanho máximo do body e margem */
 body {
     font-family: Arial, sans-serif;
     font-size-adjust: 100%;
-    max-width: 1339px;
+    max-width: 1340px;
     margin: 0px auto 0px auto;
 }
 
@@ -33,7 +33,7 @@ footer {
     text-align: center;
 }
 
-/* Posicionando pra flutuar junto com a pÃ¡gina */
+/* Posicionando pra flutuar junto com a página */
 /*.logo,*/
 /*nav,*/
 header {
@@ -41,12 +41,12 @@ header {
     height: 150px;
     /*position: sticky;*/
     /*top: 10px;*/
-    margin: 0px auto 0px auto;
+    margin: 0px auto;
     text-align: center;
     background-color: #CCCCCC;
 }
 
-/* Setando estilos de texto para os parÃ¡grafos e o padding */
+/* Setando estilos de texto para os parágrafos e o padding */
 p {
     text-align: center;
     font-size: 1em;
@@ -74,7 +74,7 @@ nav ul li {
     display: inline;
 }
 
-/* Definindo espaÃ§amento entre links, tamanho da fonte */
+/* Definindo espaçamento entre links, tamanho da fonte */
 nav ul li a {
     padding: 0px 20px 0px 20px;
     color: #0b70ad;
@@ -84,13 +84,13 @@ nav ul li a {
     font-weight: bold;
 }
 
-/* Ainda nÃ£o utilizado */
+/* Ainda não utilizado */
 ul li a:hover {
     color: ;
     background-color: ;
 }
 
-/* FormataÃ§ao do h1 */
+/* Formataçao do h1 */
 h1 {
     font-size: 2em;
     font-weight: bold;
@@ -103,7 +103,7 @@ footer {
     /*padding: 20px 69px 0px 69px;*/
 }
 
-/* Posicionamento e formataÃ§Ã£o dos itens do mapa */
+/* Posicionamento e formatação dos itens do mapa */
 footer nav {
     float: left;
     font-size: .8em;
@@ -114,7 +114,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* FormataÃ§Ã£o do titulo do mapa */
+/* Formatação do titulo do mapa */
 footer nav p {
     margin: 0px;
     padding: 0px;
@@ -124,7 +124,7 @@ footer nav p {
     margin-right: 98px;
 }
 
-/***************************************************    InÃ­cio do posicionamento individual de cada item do mapa   ***************************************************/
+/***************************************************    Início do posicionamento individual de cada item do mapa   ***************************************************/
 .fhome {
     position: relative;
     top: 5px;
@@ -170,7 +170,7 @@ footer img {
     margin-left: 20px;
 }
 
-/* FormataÃ§Ã£o e alinhamento do texto do small / "retirado" o float*/
+/* Formatação e alinhamento do texto do small / "retirado" o float*/
 footer p {
     /*border: 1px solid yellow;*/
     margin-right: -69px;
@@ -180,31 +180,41 @@ footer p {
     font-size: .8em;
 }
 
-/***************************************************    Final do posicionamento Header e Footer (Todas as pÃ¡ginas)   ***************************************************/
+/***************************************************    Final do posicionamento Header e Footer (Todas as páginas)   ***************************************************/
 
 
-/***************************************************    InÃ­cion do CSS da pÃ¡gina HOME   ***************************************************/
+/***************************************************    Inícion do CSS da página HOME   ***************************************************/
 .homeArticle {
     background-color: #FFFFFF;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
     border-radius: 20px;
-    margin: 50px 250px 40px 250px;
-    padding: 10px 10px 10px 10px;
+    margin: 3.73134328358209% 18.65671641791045% 2.985074626865672% 18.65671641791045%;
+    /*margin: 50px 250px 40px 250px*/
+    padding: 1%;
+    /*padding: 10px 10px 10px 10px;*/
 }
 
 /*  Ajustando posicionamento das sections da Home   */
 /*  Centralizando imagem tmeporaria */
 .homeSection {
-    margin: 10px 10px 10px 125px;
+    margin: 0.7462686567164179% 0.7462686567164179% 0.7462686567164179% 9.328358208955224%;
+    /*10px 10px 10px 125px*/
     border-radius: 20px;
     background-color: #FFFFFF;
-    padding: 30px 10px 10px 10px;
+    padding: 3% 1% 1% 1%;
+    /*30px 10px 10px 10px*/
     box-shadow: 2px 2px 2px 2px #AAAAAA;
-    width: 455px;
-    height: 500px;
+    width: 33.95522388059701%;
+    /*455px*/
+    height: 37.3134328358209%;
+    /*500px*/
     float: left;
     text-align: center;
     position: static;
+}
+
+.homeSection img {
+    width: 100%;
 }
 
 /*    Centralizando os textos das sections na Home   */
@@ -218,24 +228,28 @@ footer p {
     color: #333333;
 }
 
-/***************************************************    Final do CSS da pÃ¡gina HOME   ***************************************************/
+/***************************************************    Final do CSS da página HOME   ***************************************************/
 
 
-/***************************************************    InÃ­cio do CSS da pÃ¡gina TEMA   ***************************************************/
+/***************************************************    Início do CSS da página TEMA   ***************************************************/
 
 .temaArticle h1 {
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
-    margin: 50px 500px 40px 500px;
-    padding: 20px 0px;
+    margin: 3.73134328358209% 37.3134328358209% 2.985074626865672% 37.3134328358209%;
+    /*50px 500px 40px 500px*/
+    padding: 2% 0;
     border-radius: 50px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
 }
 
 .temaArticle figure {
-    width: 455px;
-    margin: 20px 0px 10px 120px;
-    padding: 25px 10px 20px 10px;
+    width: 33.95522388059701%;
+    /*455px*/
+    margin: 1.492537313432836% 0 0.7462686567164179% 8.955223880597015%;
+    /*20px 0px 10px 120px*/
+    padding: 2.5% 1% 2% 1%;
+    /*25px 10px 20px 10px*/
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
     background-color: white;
@@ -243,25 +257,31 @@ footer p {
     text-align: center;
 }
 
-/***************************************************    Final do CSS da pÃ¡gina TEMA   ***************************************************/
+.temaArticle img {
+    width: 100%;
+}
+
+/***************************************************    Final do CSS da página TEMA   ***************************************************/
 
 
-/***************************************************    InÃ­cio do CSS da pÃ¡gina PARTICIPANTES   ***************************************************/
+/***************************************************    Início do CSS da página PARTICIPANTES   ***************************************************/
 
 .participantesArticle section {
-    margin: 10px 200px;
+    margin: 0.7462686567164179% 14.92537313432836%;
+    /*10px 200px*/
     padding: 0px 0px 0px 0px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
-    border: ;
     float: left;
     text-align: center;
     background-color: #FFFFFF;
 }
 
 .participantesArticle figure {
-    width: 120px;
-    height: 125px;
+    width: 17.91044776119403%;
+    /*120px*/
+    height: 18.65671641791045%;
+    /*125px*/
     float: left;
     padding: ;
     background-color: ;
@@ -279,64 +299,40 @@ footer p {
 
 .participantesArticle p {
     background-color: #FFFFFF;
-    margin: 50px 150px;
-    padding: 25px;
+    margin: 3.73134328358209% 11.19402985074627%;
+    /*50px 150px*/
+    padding: 2.5%;
+    /*25px*/
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
 }
 
 .participantesArticle section p {
-    margin: 0px 100px 0px 170px;
-    position: relative;
-    box-shadow: 0px 0px 0px 0px #FFFFFF;
+    margin: 0 7.462686567164179% 0 12.6865671641791%;
+    /*0px 100px 0px 170px*/
+    box-shadow: none;
 }
 
-.desc1 {
-    top: 33px;
-}
-
-.desc2 {
-    top: 33px;
-}
-
-.desc3 {
-    top: 33px;
-}
-
-.desc4 {
-    top: 23px;
-}
-
-.desc5 {
-    top: 23px;
-}
-
-/***************************************************    Final do CSS da pÃ¡gina PARTICIÃ€NTES   ***************************************************/
+/***************************************************    Final do CSS da página PARTICIÀNTES   ***************************************************/
 
 
-/***************************************************    InÃ­cio do CSS da pÃ¡gina SOBRE   ***************************************************/
+/***************************************************    Início do CSS da página SOBRE   ***************************************************/
 
-.sobreArticle {
+.sobre {
     background-color: #FFFFFF;
-    max-width: 1200px;
-    margin: 50px 69.5px;
-    padding: 10px;
+    margin: 3.73134328358209% 7.462686567164179% 2.985074626865672% 7.462686567164179%;
+    /*50px 100px 40px 100px*/
+    padding: 1%;
+    /*10px*/
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
 }
 
-.sobreAside {
-    background-color: #FFFFFF;
-    max-width: 1200px;
-    margin: 50px 69.5px;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px #AAAAAA;
-}
 
 table {
-    width: 197px;
-    margin: auto 569.5px auto 569.5px;
+    width: ;
+    /*197px*/
+    margin: auto;
     font-size: 1em;
     text-align: left;
     align-content: center;
@@ -348,16 +344,20 @@ th {
     border: 1px solid;
 }
 
-/***************************************************    Final do CSS da pÃ¡gina SOBRE   ***************************************************/
+td,
+th {
+    padding: 3px;
+}
+
+/***************************************************    Final do CSS da página SOBRE   ***************************************************/
 
 
-/***************************************************    InÃ­cio do CSS da pÃ¡gina CONTATO   ***************************************************/
+/***************************************************    Início do CSS da página CONTATO   ***************************************************/
 
 form fieldset {
-    margin: 50px 341px;
+    margin: 3.73134328358209% 25.44776119402985% 0 25.44776119402985%;
+    /*50px 341px 0 341px*/
     border: none;
-    align-content: center;
-    text-align: center;
 }
 
 fieldset legend {
@@ -371,36 +371,45 @@ form p {
     text-align: left;
     border: 1px solid black;
     border: none;
-    margin: 10px auto -5px auto;
+    margin: 0.7462686567164179% auto -1.1% auto;
+    /*10px auto -5px auto*/
     font-size: .9em;
 }
 
 form input {
     margin: auto;
-    width: 600px;
-    height: 25px;
+    padding: 1% 0.5%;
+    width: 98%;
+    /*600px*/
+    height: 100%;
+    /*25px*/
     display: block;
     border-radius: 5px;
 }
 
 form textarea {
-    width: 600px;
+    width: 98%;
+    /*600px*/
     height: 300px;
+    /*300px*/
+    margin: auto;
     border-radius: 5px;
     font-family: Arial, sans-serif;
 }
 
 input[type=button] {
-    margin-top: 10px;
-    width: 100px;
+    margin-top: 0.7462686567164179%;
+    /**/
+    width: 22%;
+    /*100px*/
     text-align: center;
     display: block;
 }
 
-/***************************************************    Final do CSS da pÃ¡gina CONTATO   ***************************************************/
+/***************************************************    Final do CSS da página CONTATO   ***************************************************/
 
 
-/***************************************************    InÃ­cio do CSS da pÃ¡gina PLAYLISTS   ***************************************************/
+/***************************************************    Início do CSS da página PLAYLISTS   ***************************************************/
 
 .playlistArticle {
     margin: 50px auto 50px 450px;
@@ -413,4 +422,4 @@ input[type=button] {
     text-align: center;
 }
 
-/***************************************************    Final do CSS da pÃ¡gina PLAYLISTS   ***************************************************/
+/***************************************************    Final do CSS da página PLAYLISTS   ***************************************************/
