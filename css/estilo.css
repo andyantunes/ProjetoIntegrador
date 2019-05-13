@@ -8,6 +8,11 @@
     Autor: Anderson Antunes
 */
 
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
 /* Cor de fundo da página */
 html {
     background-color: #E3E3E3;
@@ -74,7 +79,7 @@ nav ul li a {
     font-weight: bold;
 }
 
-ul li a:hover {
+header ul li a:hover {
     color: white;
     text-decoration: underline;
     background-color: #0B70AD;
@@ -84,8 +89,8 @@ ul li a:hover {
 /* Posionamento e margem do logo */
 .logo {
     height: 60px;
-    margin: 1.119402985074627% 0% 1.119402985074627% 1.119402985074627%;
-    /*15px 0px 15px 15px*/
+    margin: 0.8955223880597015% 0% 0.8955223880597015% 1.119402985074627%;
+    /*12px 0px 12px 15px*/
 }
 
 /* Setando estilos de texto para os parágrafos e o padding */
@@ -126,14 +131,20 @@ footer nav {
     font-size: 78%;
     /*.8e*/
     width: 55%;
+    text-align: left;
+}
+
+footer nav ul {
+    text-align: left;
 }
 
 /* Retirando sublinhado dos itens do mapa */
-footer nav a {
+footer nav li a {
     text-decoration: none;
-    float: left;
-    margin-left: 10%;
-    /*80px*/
+    margin-left: 2.686567164179104%;
+    /*18px*/
+    font-size: 1em;
+    font-weight: 600;
 }
 
 /* Formatação do titulo do mapa */
@@ -146,17 +157,15 @@ footer nav p {
     /*400px*/
 }
 
-/***************************************************    Início do posicionamento individual de cada item do mapa   ***************************************************/
-
-
-/***************************************************    Final do posicionamento individual de cada item do mapa   ***************************************************/
-
+/* Classe para ocultar tags */
+.oculto {
+    display: none;
+}
 
 /***************************************************    Posicionamento das imagens do footer   ***************************************************/
 footer img {
     padding-top: 2.5%;
     /*25px*/
-    /**/
     float: right;
     margin: 1.5% 6% 0% 0%;
     /*20px 80px 0px 0px*/
@@ -195,7 +204,7 @@ footer p {
 /*  Ajustando posicionamento das sections da Home   */
 /*  Centralizando imagem tmeporaria */
 .homeSection {
-    margin: 0.7462686567164179% 0.7462686567164179% 0.7462686567164179% 9.328358208955224%;
+    margin: 0.7462686567164179% 0.7462686567164179% 2.238805970149254% 9.328358208955224%;
     /*10px 10px 10px 125px*/
     border-radius: 20px;
     background-color: #FFFFFF;
@@ -204,7 +213,7 @@ footer p {
     box-shadow: 2px 2px 2px 2px #AAAAAA;
     width: 33.95522388059701%;
     /*455px*/
-    height: 37.3134328358209%;
+    height: 540px;
     /*500px*/
     float: left;
     text-align: center;
@@ -244,7 +253,7 @@ footer p {
 .temaArticle figure {
     width: 33.95522388059701%;
     /*455px*/
-    margin: 1.492537313432836% 0 0.7462686567164179% 8.955223880597015%;
+    margin: 1.492537313432836% 0 2.238805970149254% 8.955223880597015%;
     /*20px 0px 10px 120px*/
     padding: 2.5% 1% 2% 1%;
     /*25px 10px 20px 10px*/
@@ -264,8 +273,8 @@ footer p {
 
 /***************************************************    Início do CSS da página PARTICIPANTES   ***************************************************/
 
-.participantesArticle section {
-    margin: 0.7462686567164179% 14.92537313432836%;
+.participantes {
+    margin: 0.7462686567164179% 14.92537313432836% 2.238805970149254% 14.92537313432836%;
     /*10px 200px*/
     padding: 0px 0px 0px 0px;
     border-radius: 20px;
@@ -286,30 +295,42 @@ footer p {
 }
 
 .participantesArticle img {
-    padding: ;
-    background-color: green;
     border-radius: 100px;
+    border: 1px solid #EFEFEF;
 }
 
 .participantesArticle figcaption {
     color: #565656;
+    font-weight: 600;
 }
 
-.participantesArticle p {
+.participantesArticle h1 {
+    margin: 3.73134328358209% auto 0 auto;
     background-color: #FFFFFF;
-    margin: 3.73134328358209% 11.19402985074627%;
-    /*50px 150px*/
-    padding: 2.5%;
-    /*25px*/
-    border-radius: 20px;
-    box-shadow: 2px 2px 2px 2px #AAAAAA;
+    width: 700px;
+    box-shadow: 2px 2px 2px 0px #AAAAAA;
+    border-radius: 20px 20px 0px 0px;
+    padding: 2% 2% 1% 2%;
+    box-sizing: border-box;
 }
 
-.participantesArticle section p {
-    margin: 0 7.462686567164179% 0 12.6865671641791%;
+.text {
+    margin: 0 auto 3.73134328358209% auto;
+    background-color: #FFFFFF;
+    width: 700px;
+    box-shadow: 2px 2px 2px 0px #AAAAAA;
+    border-radius: 0px 0px 20px 20px;
+    padding: 0.1% 2% 2% 2%;
+    box-sizing: border-box;
+}
+
+.desc {
+    margin: 2.3% 7.462686567164179% 2.2% 12.6865671641791%;
     /*0px 100px 0px 170px*/
     box-shadow: none;
+    padding: 2.5%;
 }
+
 
 /***************************************************    Final do CSS da página PARTICIÀNTES   ***************************************************/
 
@@ -326,11 +347,9 @@ footer p {
     box-shadow: 2px 2px 2px 2px #AAAAAA;
 }
 
-
 table {
-    width: ;
     /*197px*/
-    margin: auto;
+    margin: 2.985074626865672% auto 2.985074626865672% auto;
     font-size: 1em;
     text-align: left;
     align-content: center;
@@ -353,7 +372,7 @@ th {
 /***************************************************    Início do CSS da página CONTATO   ***************************************************/
 
 form fieldset {
-    margin: 3.73134328358209% 25.44776119402985% 0 25.44776119402985%;
+    margin: 3.73134328358209% 25.44776119402985% 2.985074626865672% 25.44776119402985%;
     /*50px 341px 0 341px*/
     border: none;
 }
@@ -369,8 +388,8 @@ form p {
     text-align: left;
     border: 1px solid black;
     border: none;
-    margin: 0.7462686567164179% auto -1.1% auto;
-    /*10px auto -5px auto*/
+    margin: 0.7462686567164179% auto 0% auto;
+    /*10px auto 0px auto*/
     font-size: .9em;
 }
 
@@ -398,7 +417,7 @@ form textarea {
 input[type=button] {
     margin-top: 0.7462686567164179%;
     /**/
-    width: 22%;
+    width: 25%;
     /*100px*/
     text-align: center;
     display: block;
@@ -409,17 +428,27 @@ input[type=button] {
 
 /***************************************************    Início do CSS da página PLAYLISTS   ***************************************************/
 
-.playlistArticle {
-    margin: 3.73134328358209% 33.02238805970149%;
+.playlistArticle img {
+    margin: 3.73134328358209% 32%;
     /*50px 442.5px*/
     border-radius: 20px;
     background-color: #FFFFFF;
-    padding: 3%;
+    padding: 2%;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
-    width: 33.95522388059701%;
+    width: 32%;
     /*455px*/
     height: 37.3134328358209%;
     /*500px*/
+}
+
+.playlistArticle p {
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px 2px #AAAAAA;
+    border-radius: 20px;
+    margin: auto 29.85074626865672% 3.73134328358209% 29.85074626865672%;
+    /* auto 400px 50px 400px */
+    padding: 1%;
+    /*padding: 10px 10px 10px 10px;*/
 }
 
 /***************************************************    Final do CSS da página PLAYLISTS   ***************************************************/
