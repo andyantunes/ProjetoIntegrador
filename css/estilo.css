@@ -213,11 +213,16 @@ footer p {
     box-shadow: 2px 2px 2px 2px #AAAAAA;
     width: 33.95522388059701%;
     /*455px*/
-    height: 540px;
+    height: 420px;
     /*500px*/
     float: left;
     text-align: center;
     position: static;
+}
+
+.dif {
+    border: solid 1px #DDD;
+
 }
 
 .homeSection img {
@@ -251,11 +256,12 @@ footer p {
 }
 
 .temaArticle figure {
+    height: 450px;
     width: 33.95522388059701%;
     /*455px*/
-    margin: 1.492537313432836% 0 2.238805970149254% 8.955223880597015%;
+    margin: 0.7462686567164179% 0.7462686567164179% 2.238805970149254% 9.328358208955224%;
     /*20px 0px 10px 120px*/
-    padding: 2.5% 1% 2% 1%;
+    padding: 3% 1% 1% 1%;
     /*25px 10px 20px 10px*/
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
@@ -417,10 +423,12 @@ form textarea {
 input[type=button] {
     margin-top: 0.7462686567164179%;
     /**/
-    width: 25%;
-    /*100px*/
+    width: 12.6%;
+    /*90px*/
     text-align: center;
     display: block;
+    background-color: #EDEDED;
+    background-image: url(../imagens/fundo_botao.png);
 }
 
 /***************************************************    Final do CSS da página CONTATO   ***************************************************/
@@ -428,27 +436,19 @@ input[type=button] {
 
 /***************************************************    Início do CSS da página PLAYLISTS   ***************************************************/
 
-.playlistArticle img {
-    margin: 3.73134328358209% 32%;
-    /*50px 442.5px*/
-    border-radius: 20px;
+.playlistArticle p {
+    border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
+    margin: 0% 30.3134328358209% 2.985074626865672% 30.3134328358209%;
+    /*50px 500px 40px 500px*/
     padding: 2%;
+    border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
-    width: 32%;
-    /*455px*/
-    height: 37.3134328358209%;
-    /*500px*/
 }
 
-.playlistArticle p {
-    background-color: #FFFFFF;
-    box-shadow: 2px 2px 2px 2px #AAAAAA;
-    border-radius: 20px;
-    margin: auto 29.85074626865672% 3.73134328358209% 29.85074626865672%;
-    /* auto 400px 50px 400px */
-    padding: 1%;
-    /*padding: 10px 10px 10px 10px;*/
+iframe {
+    margin: 20px auto;
+    border: none;
 }
 
 /***************************************************    Final do CSS da página PLAYLISTS   ***************************************************/
