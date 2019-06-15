@@ -1,17 +1,12 @@
 @charset "UTF-8";
 
 /*
-    Nome: CSS Home Projeto Integrador
+    Nome: CSS Projeto Integrador
     Data: Abril 2019
-    Descrição: Projeto de site primeiro semestre
-    Versão: 0.5
+    Descrição: Projeto de site - primeiro semestre
+    Versão: 2.0
     Autor: Anderson Antunes
 */
-
-/** {
-    margin: 0;
-    padding: 0;
-}*/
 
 /* Cor de fundo da página */
 html {
@@ -35,7 +30,6 @@ section,
 aside,
 footer {
     margin: 10px;
-    /*10px*/
     text-align: center;
 }
 
@@ -45,8 +39,6 @@ footer {
 header {
     width: 100%;
     height: 85px;
-    /*position: sticky;*/
-    /*top: 10px;*/
     margin: 0px auto;
     background-color: #CCCCCC;
 }
@@ -93,7 +85,7 @@ header ul li a:hover {
     /*12px 0px 12px 15px*/
 }
 
-/* Setando estilos de texto para os parágrafos e o padding */
+/* Definindo estilos de texto para os parágrafos e o padding */
 p {
     text-align: center;
     font-size: 1em;
@@ -105,7 +97,6 @@ p {
 
 /* Alinhando o texto do menu ao centro da caixa */
 nav {
-    /*position: fixed;*/
     margin-top: 2.5%;
     /*30px*/
 }
@@ -122,7 +113,6 @@ footer {
     background-color: #EDEDED;
     width: 100%;
     margin: 0%;
-    /*padding: 20px 69px 0px 69px;*/
 }
 
 /* Posicionamento e formatação dos itens do mapa */
@@ -179,9 +169,7 @@ footer img {
 
 /* Formatação e alinhamento do texto do small / "retirado" o float*/
 footer p {
-    /*border: 1px solid yellow;*/
     margin: 0%;
-    /*padding-top: 1.4%;/*20px*/
     clear: both;
     text-align: center;
     font-size: .8em;
@@ -198,7 +186,7 @@ footer p {
     margin: 3.73134328358209% 18.65671641791045% 2.985074626865672% 18.65671641791045%;
     /*margin: 50px 250px 40px 250px*/
     padding: 1%;
-    /*padding: 10px 10px 10px 10px;*/
+    /*padding: 10px;*/
 }
 
 /*  Ajustando posicionamento das sections da Home   */
@@ -222,7 +210,6 @@ footer p {
 
 .dif {
     border: solid 1px #DDD;
-
 }
 
 .homeSection img {
@@ -244,24 +231,27 @@ footer p {
 
 
 /***************************************************    Início do CSS da página TEMAS   ***************************************************/
+.temaArticle {
+    margin: auto;
+}
 
 .temaArticle h1 {
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
-    margin: 3.73134328358209% 37.3134328358209% 2.985074626865672% 37.3134328358209%;
+    margin: 3.73134328358209% 40.3134328358209% 2.985074626865672% 40.3134328358209%;
     /*50px 500px 40px 500px*/
-    padding: 2% 0;
+    padding: 1%;
     border-radius: 50px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
 }
 
 .temaArticle figure {
-    height: 450px;
-    width: 33.95522388059701%;
+    height: 270px;
+    width: 20%;
     /*455px*/
-    margin: 0.7462686567164179% 0.7462686567164179% 2.238805970149254% 9.328358208955224%;
+    margin: 0.7462686567164179% 0.7462686567164179% 2.238805970149254% 8.328358208955224%;
     /*20px 0px 10px 120px*/
-    padding: 3% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
     /*25px 10px 20px 10px*/
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
@@ -270,8 +260,8 @@ footer p {
     text-align: center;
 }
 
-.temaArticle img {
-    width: 100%;
+.temaArticle h2 {
+    font-size: 1em;
 }
 
 /***************************************************    Final do CSS da página TEMAS   ***************************************************/
@@ -279,10 +269,35 @@ footer p {
 
 /***************************************************    Início do CSS da página PARTICIPANTES   ***************************************************/
 
+.participantes_article {
+    margin-left: 200px;
+    margin-bottom: 20px;
+    width: 750px;
+    float: left;
+}
+
+.participantes_section1 {
+    margin: auto 10px auto 20px;
+    width: 50px;
+    float: left;
+}
+
+.participantes_section2 {
+    margin: 235px 220px 0 20px;
+    height: 50px;
+    float: right;
+}
+
+.participantes_section2 img {
+    border-radius: 5px;
+}
+
+.participantes_section1 img {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
 .participantes {
-    margin: 0.7462686567164179% 14.92537313432836% 2.238805970149254% 14.92537313432836%;
-    /*10px 200px*/
-    padding: 0px 0px 0px 0px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
     float: left;
@@ -290,27 +305,25 @@ footer p {
     background-color: #FFFFFF;
 }
 
-.participantesArticle figure {
+.participantes_article figure {
     width: 17.91044776119403%;
     /*120px*/
     height: 18.65671641791045%;
     /*125px*/
     float: left;
-    padding: ;
-    background-color: ;
 }
 
-.participantesArticle img {
+.participantes_article img {
     border-radius: 100px;
     border: 1px solid #EFEFEF;
 }
 
-.participantesArticle figcaption {
+.participantes_article figcaption {
     color: #565656;
     font-weight: 600;
 }
 
-.participantesArticle h1 {
+.participantes_titulo {
     margin: 3.73134328358209% auto 0 auto;
     background-color: #FFFFFF;
     width: 700px;
@@ -331,10 +344,30 @@ footer p {
 }
 
 .desc {
-    margin: 2.3% 7.462686567164179% 2.2% 12.6865671641791%;
-    /*0px 100px 0px 170px*/
+    margin: 2.3% 2.462686567164179% 2.2% 22.6865671641791%;
+    0px 100px 0px 170px background-color: #fafafa;
     box-shadow: none;
     padding: 2.5%;
+}
+
+.icon2 {
+    position: relative;
+    top: 40px;
+}
+
+.icon3 {
+    position: relative;
+    top: 85px;
+}
+
+.icon4 {
+    position: relative;
+    top: 130px;
+}
+
+.icon5 {
+    position: relative;
+    top: 175px;
 }
 
 
@@ -343,7 +376,14 @@ footer p {
 
 /***************************************************    Início do CSS da página SOBRE   ***************************************************/
 
-.sobre {
+.sobre_article {
+    margin-top: 20px;
+    width: 70%;
+    border-right: 1px solid #AAA;
+    float: left;
+}
+
+.sobre_texto {
     background-color: #FFFFFF;
     margin: 3.73134328358209% 7.462686567164179% 2.985074626865672% 7.462686567164179%;
     /*50px 100px 40px 100px*/
@@ -353,9 +393,36 @@ footer p {
     box-shadow: 2px 2px 2px 2px #AAAAAA;
 }
 
+.sobre_info {
+    width: 28%;
+    margin: auto;
+    float: right;
+}
+
+.sobre_info h2 {
+    margin-top: 40px;
+}
+
+.sobre_info img {
+    margin: 20px 0 20px 0;
+    border-radius: 100%;
+}
+
+.sobre_info figure {
+    margin-bottom: 50px;
+}
+
+.sobre_parceiros {
+    border-bottom: 1px solid #AAA;
+}
+
+.sobre_estatistica {
+    margin: 115px 0 115px 0;
+}
+
 table {
-    /*197px*/
     margin: 2.985074626865672% auto 2.985074626865672% auto;
+    /*197px auto*/
     font-size: 1em;
     text-align: left;
     align-content: center;
@@ -376,9 +443,20 @@ th {
 
 
 /***************************************************    Início do CSS da página CONTATO   ***************************************************/
+.article_contato {
+    width: 845px;
+    float: left;
+    border-right: 1px solid #AAA;
+}
+
+.aside_contato {
+    margin: 30px 37px;
+    width: 400px;
+    float: right;
+}
 
 form fieldset {
-    margin: 3.73134328358209% 25.44776119402985% 2.985074626865672% 25.44776119402985%;
+    margin: 3.73134328358209% 15% 2.985074626865672% 15%;
     /*50px 341px 0 341px*/
     border: none;
 }
@@ -402,19 +480,15 @@ form p {
 form input {
     margin: auto;
     padding: 1% 0.5%;
-    width: 98%;
-    /*600px*/
+    width: 100%;
     height: 100%;
-    /*25px*/
     display: block;
     border-radius: 5px;
 }
 
 form textarea {
-    width: 98%;
-    /*600px*/
+    width: 100%;
     height: 300px;
-    /*300px*/
     margin: auto;
     border-radius: 5px;
     font-family: Arial, sans-serif;
@@ -422,7 +496,6 @@ form textarea {
 
 input[type=button] {
     margin-top: 0.7462686567164179%;
-    /**/
     width: 12.6%;
     /*90px*/
     text-align: center;
@@ -436,19 +509,52 @@ input[type=button] {
 
 /***************************************************    Início do CSS da página PLAYLISTS   ***************************************************/
 
+.playlistArticle {
+    margin: 10px 0 30px 0;
+    width: 50%;
+    float: left;
+}
+
 .playlistArticle p {
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
-    margin: 0% 30.3134328358209% 2.985074626865672% 30.3134328358209%;
-    /*50px 500px 40px 500px*/
+    width: 500px;
+    margin: auto;
     padding: 2%;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 2px #AAAAAA;
 }
 
 iframe {
+    width: 600px;
     margin: 20px auto;
     border: none;
+}
+
+.frame_one {
+    margin-left: 335px;
+}
+
+.frame_previous {
+    margin: 300px auto 0px 0;
+    float: left;
+}
+
+.frame_previous img {
+    border: 1px solid #ddd;
+}
+
+.frame_next {
+    margin: 300px auto 0px 0;
+    float: right;
+}
+
+.frame_next img {
+    border: 1px solid #ddd;
+}
+
+strong {
+    color: #111;
 }
 
 /***************************************************    Final do CSS da página PLAYLISTS   ***************************************************/
